@@ -20,7 +20,7 @@ public class EmployeesController {
     public void start() {
         System.out.println("");
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 2; i++) {
             String name = scanner.nextLine();
             employeesService.save(name);
         }
